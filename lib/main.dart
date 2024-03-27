@@ -16,7 +16,7 @@ class businessCardApp extends StatelessWidget {
         body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            CircleAvatar(
+            const CircleAvatar(
               radius: 135,
               backgroundColor: Colors.white,
               child: CircleAvatar(
@@ -24,7 +24,7 @@ class businessCardApp extends StatelessWidget {
                 backgroundImage: AssetImage('images/ahmed1.jpg'),
               ),
             ),
-            Text(
+            const Text(
               "Eng.Ahmed Abdelfattah",
               style: TextStyle(
                 color: Colors.white,
@@ -32,7 +32,7 @@ class businessCardApp extends StatelessWidget {
                 fontFamily: 'Caveat',
               ),
             ),
-            Text(
+            const Text(
               "Software Engineer",
               style: TextStyle(
                 color: Color(0xff6C8090),
@@ -40,7 +40,7 @@ class businessCardApp extends StatelessWidget {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            Divider(
+            const Divider(
               color: Color(0xff6C8090),
               thickness: 2,
               endIndent: 60,
@@ -48,14 +48,14 @@ class businessCardApp extends StatelessWidget {
               height: 10,
             ),
             Padding(
-              padding: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
               child: Container(
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(15),
                   color: Colors.white,
                 ),
                 height: 65,
-                child: Row(
+                child: const Row(
                   children: [
                     Padding(
                       padding: EdgeInsets.only(left: 16),
@@ -77,14 +77,14 @@ class businessCardApp extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: EdgeInsets.all(15),
+              padding: const EdgeInsets.all(15),
               child: Container(
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(15),
                   color: Colors.white,
                 ),
                 height: 65,
-                child: Row(
+                child: const Row(
                   children: [
                     Padding(
                       padding: EdgeInsets.only(left: 16),
